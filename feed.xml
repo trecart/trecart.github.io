@@ -1,0 +1,90 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://blog.heguip.com/</id>
+  <title>Trecart</title>
+  <subtitle>My Blog~</subtitle>
+  <updated>2023-02-27T05:15:31+08:00</updated>
+  <author>
+    <name>Trecart</name>
+    <uri>https://blog.heguip.com/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://blog.heguip.com/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://blog.heguip.com/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 Trecart </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>天上挂着月牙</title>
+    <link href="https://blog.heguip.com/posts/moon/" rel="alternate" type="text/html" title="天上挂着月牙" />
+    <published>2023-02-14T10:10:00+08:00</published>
+  
+    <updated>2023-02-14T11:11:00+08:00</updated>
+  
+    <id>https://blog.heguip.com/posts/moon/</id>
+    <content src="https://blog.heguip.com/posts/moon/" />
+    <author>
+      <name>Trecart</name>
+    </author>
+
+  
+    
+    <category term="生活" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      天上挂着月牙
+
+天上挂着月牙，我的恋人
+
+把我撇下。这怎么办哟！
+
+他取笑说：“走钢绳的女郎！
+
+看你怎么能够活到五月！”
+
+我回答他，把他当作兄弟，
+
+既不嫉妒，也不怨恨，
+
+可是，这四件簇新的大氅
+
+却不能够抵偿我的不幸。
+
+我的道路是这样危险，可是
+
+痛苦的道路更加惊心……
+
+我这中国式的小鞋多么红艳，
+
+我的小鞋又擦上了白粉！
+
+乐队奏着快乐的曲子，
+
+我张开微笑的嘴唇，
+
+可是心里知道，知道
+
+第五个包厢没有坐人！
+
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
