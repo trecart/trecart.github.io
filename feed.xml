@@ -4,7 +4,7 @@
   <id>https://blog.heguip.com/</id>
   <title>Trecart</title>
   <subtitle>My Blog~</subtitle>
-  <updated>2023-02-28T03:38:56+08:00</updated>
+  <updated>2023-02-28T03:47:44+08:00</updated>
   <author>
     <name>Trecart</name>
     <uri>https://blog.heguip.com/</uri>
@@ -21,20 +21,20 @@
   
   <entry>
     <title>sun</title>
-    <link href="https://blog.heguip.com/posts/sun/" rel="alternate" type="text/html" title="sun" />
+    <link href="https://blog.heguip.com/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0/" rel="alternate" type="text/html" title="sun" />
     <published>2023-02-18T10:10:00+08:00</published>
   
     <updated>2023-02-18T11:11:00+08:00</updated>
   
-    <id>https://blog.heguip.com/posts/sun/</id>
-    <content src="https://blog.heguip.com/posts/sun/" />
+    <id>https://blog.heguip.com/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0/</id>
+    <content src="https://blog.heguip.com/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0/" />
     <author>
       <name>Trecart</name>
     </author>
 
   
     
-    <category term="生活,收集" />
+    <category term="生活" />
     
   
 
@@ -46,37 +46,40 @@
 
 
 
-      天上挂着月牙，我的恋人
+      这是一篇示例文章
 
-把我撇下。这怎么办哟！
+目录
 
-他取笑说：“走钢绳的女郎！
 
-看你怎么能够活到五月！”
+  第一部分：介绍
+  第二部分：主体
+    
+      第一章：主题1
+      第二章：主题2
+    
+  
+  第三部分：结论
 
-我回答他，把他当作兄弟，
 
-既不嫉妒，也不怨恨，
+第一部分：介绍 
 
-可是，这四件簇新的大氅
+这是一篇示例文章，用于演示如何使用 Markdown 编写文章。
 
-却不能够抵偿我的不幸。
+第二部分：主体 
 
-我的道路是这样危险，可是
+这部分将介绍本文的主要内容，包括两个章节。
 
-痛苦的道路更加惊心……
+第一章：主题1 
 
-我这中国式的小鞋多么红艳，
+这是第一章的内容。
 
-我的小鞋又擦上了白粉！
+第二章：主题2 
 
-乐队奏着快乐的曲子，
+这是第二章的内容。
 
-我张开微笑的嘴唇，
+第三部分：结论 
 
-可是心里知道，知道
-
-第五个包厢没有坐人！
+这篇文章的结论是……
 
     </summary>
   
