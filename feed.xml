@@ -4,7 +4,7 @@
   <id>https://blog.heguip.com/</id>
   <title>Trecart</title>
   <subtitle>My Blog~</subtitle>
-  <updated>2023-02-28T15:04:16+08:00</updated>
+  <updated>2023-02-28T15:19:05+08:00</updated>
   <author>
     <name>Trecart</name>
     <uri>https://blog.heguip.com/</uri>
@@ -100,7 +100,9 @@
 
   
     
-    <category term="别看，歌词" />
+    <category term="别看" />
+    
+    <category term="歌词" />
     
   
 
@@ -218,7 +220,9 @@
 
   
     
-    <category term="别看，诗歌" />
+    <category term="别看" />
+    
+    <category term="诗歌" />
     
   
 
