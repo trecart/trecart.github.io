@@ -4,7 +4,7 @@
   <id>https://blog.heguip.com/</id>
   <title>Trecart</title>
   <subtitle>My Blog~</subtitle>
-  <updated>2023-03-05T03:13:35+08:00</updated>
+  <updated>2023-03-06T03:27:04+08:00</updated>
   <author>
     <name>Trecart</name>
     <uri>https://blog.heguip.com/</uri>
@@ -17,6 +17,61 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>checkbox</title>
+    <link href="https://blog.heguip.com/posts/checkbox/" rel="alternate" type="text/html" title="checkbox" />
+    <published>2023-03-06T01:02:03+08:00</published>
+  
+    <updated>2023-03-06T04:05:06+08:00</updated>
+  
+    <id>https://blog.heguip.com/posts/checkbox/</id>
+    <content src="https://blog.heguip.com/posts/checkbox/" />
+    <author>
+      <name>Trecart</name>
+    </author>
+
+  
+    
+    <category term="别看" />
+    
+    <category term="歌词" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  
+    test1
+  
+  
+    test2
+  
+  
+    test3
+  
+  
+    test4
+
+    cd /etc/config
+nano test.conf
+    
+  
+
+
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
