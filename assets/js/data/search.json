@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Openwrt内网https访问去掉浏览器安全警告",
+    "url": "/posts/Openwrt%E5%86%85%E7%BD%91https%E8%AE%BF%E9%97%AE%E5%8E%BB%E6%8E%89%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8%E8%AD%A6%E5%91%8A/",
+    "categories": "openwrt, 管理",
+    "tags": "openwrt",
+    "date": "2023-03-15 01:02:03 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "１.　平常管理Openwrt时，浏览器总是提示不安全，一个大大的红叉，如下图，实在是忍受不了，而且不能保存密码，让兄弟焦虑不安。  解决办法mkdir crtopenssl req -x509 -nodes -days 3650 -newkey rsa:2048 -subj \"/C=CN/ST=Beijing/L=Beijing/O=null\" -keyout /root/crt/CA.ke...",
+    "content": "１.　平常管理Openwrt时，浏览器总是提示不安全，一个大大的红叉，如下图，实在是忍受不了，而且不能保存密码，让兄弟焦虑不安。  解决办法mkdir crtopenssl req -x509 -nodes -days 3650 -newkey rsa:2048 -subj \"/C=CN/ST=Beijing/L=Beijing/O=null\" -keyout /root/crt/CA.key -out /root/crt/CA.crt -reqexts v3_req -extensions v3_caopenssl genrsa -out /root/crt/uhttpd_null.key 2048#注意下条命令的/CN=op.lan与下面你的内网域名对应openssl req -new -key  /root/crt/uhttpd_null.key -subj \"/C=CN/ST=Beijing/L=Beijing/O=null/CN=op.lan\" -sha256 -out  /root/crt/uhttpd_null.csrvi /root/crt/uhttpd_null.ext###新建的文件，直接把下面贴进去#######[ req ]default_bits        = 1024distinguished_name  = req_distinguished_namereq_extensions      = sanextensions          = san[ req_distinguished_name ]countryName         = CNstateOrProvinceName = DefinesyslocalityName        = DefinesysorganizationName    = Definesys[SAN]authorityKeyIdentifier=keyid,issuerbasicConstraints=CA:FALSEkeyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEnciphermentsubjectAltName = @alt_names[ alt_names ]IP.1 = 192.168.2.1 #你的内网管理地址DNS.1 = op.lan     #你的内网域名###到这里就够了#######openssl x509 -req -days 3650 -in /root/crt/uhttpd_null.csr -CA /root/crt/CA.crt -CAkey /root/crt/CA.key -CAcreateserial -sha256 -out /root/crt/uhttpd_null.crt -extfile /root/crt/uhttpd_null.ext -extensions SANcp /root/crt/uhttp_null.crt /etc/ &amp;&amp; cp /root/crt/uhttp_null.key /etc/vi /etc/config/uhttpd#config uhttpd 'main'        option redirect_https '1'                           #打开https        option cert '/etc/uhttpd_null.crt'                  #新证书        option key '/etc/uhttpd_null.key'                   #新key/etc/init.d/uhttpd restart  安装证书到电脑  最终效果"
+  },
+  
+  {
     "title": "checkbox",
     "url": "/posts/checkbox/",
     "categories": "别看, 歌词",

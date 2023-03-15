@@ -4,7 +4,7 @@
   <id>https://blog.heguip.com/</id>
   <title>Trecart</title>
   <subtitle>My Blog~</subtitle>
-  <updated>2023-03-06T03:27:04+08:00</updated>
+  <updated>2023-03-15T17:01:31+08:00</updated>
   <author>
     <name>Trecart</name>
     <uri>https://blog.heguip.com/</uri>
@@ -17,6 +17,56 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Openwrt内网https访问去掉浏览器安全警告</title>
+    <link href="https://blog.heguip.com/posts/Openwrt%E5%86%85%E7%BD%91https%E8%AE%BF%E9%97%AE%E5%8E%BB%E6%8E%89%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8%E8%AD%A6%E5%91%8A/" rel="alternate" type="text/html" title="Openwrt内网https访问去掉浏览器安全警告" />
+    <published>2023-03-15T01:02:03+08:00</published>
+  
+    <updated>2023-03-15T04:05:06+08:00</updated>
+  
+    <id>https://blog.heguip.com/posts/Openwrt%E5%86%85%E7%BD%91https%E8%AE%BF%E9%97%AE%E5%8E%BB%E6%8E%89%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8%E8%AD%A6%E5%91%8A/</id>
+    <content src="https://blog.heguip.com/posts/Openwrt%E5%86%85%E7%BD%91https%E8%AE%BF%E9%97%AE%E5%8E%BB%E6%8E%89%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8%E8%AD%A6%E5%91%8A/" />
+    <author>
+      <name>Trecart</name>
+    </author>
+
+  
+    
+    <category term="openwrt" />
+    
+    <category term="管理" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      １.　平常管理Openwrt时，浏览器总是提示不安全，一个大大的红叉，如下图，实在是忍受不了，而且不能保存密码，让兄弟焦虑不安。
+
+
+
+
+  解决办法
+
+
+mkdir crt
+openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -subj "/C=CN/ST=Beijing/L=Beijing/O=null" -keyout /root/crt/CA.key -out /root/crt/CA.crt -reqexts v3_req -extensions v3_ca
+
+openssl genrsa -out /root/crt/uhttpd_null.key 2048
+
+#注意下条命令的/CN=op.lan与下面你的内网域名对应
+openssl req -new -key  /root/crt/uhttpd_null.key -...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -320,73 +370,6 @@ nano test.conf
 慢慢地陪你慢慢地老去
 
 因...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>天上挂着月牙</title>
-    <link href="https://blog.heguip.com/posts/moon/" rel="alternate" type="text/html" title="天上挂着月牙" />
-    <published>2023-02-14T10:10:00+08:00</published>
-  
-    <updated>2023-02-14T11:11:00+08:00</updated>
-  
-    <id>https://blog.heguip.com/posts/moon/</id>
-    <content src="https://blog.heguip.com/posts/moon/" />
-    <author>
-      <name>Trecart</name>
-    </author>
-
-  
-    
-    <category term="别看" />
-    
-    <category term="诗歌" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      天上挂着月牙，我的恋人
-
-把我撇下。这怎么办哟！
-
-他取笑说：“走钢绳的女郎！
-
-看你怎么能够活到五月！”
-
-我回答他，把他当作兄弟，
-
-既不嫉妒，也不怨恨，
-
-可是，这四件簇新的大氅
-
-却不能够抵偿我的不幸。
-
-我的道路是这样危险，可是
-
-痛苦的道路更加惊心……
-
-我这中国式的小鞋多么红艳，
-
-我的小鞋又擦上了白粉！
-
-乐队奏着快乐的曲子，
-
-我张开微笑的嘴唇，
-
-可是心里知道，知道
-
-第五个包厢没有坐人！
-
     </summary>
   
 
