@@ -30,8 +30,8 @@
 
 
     
-    "snippet": "      test1        test2        test3        test4    cd /etc/confignano test.conf      ",
-    "content": "      test1        test2        test3        test4    cd /etc/confignano test.conf      "
+    "snippet": "      test1        test2        test3        test4    cd /etc/confignano test.conf          ",
+    "content": "      test1        test2        test3        test4    cd /etc/confignano test.conf          "
   },
   
   {

@@ -4,7 +4,7 @@
   <id>https://blog.heguip.com/</id>
   <title>Trecart</title>
   <subtitle>My Blog~</subtitle>
-  <updated>2023-03-15T17:01:31+08:00</updated>
+  <updated>2023-03-15T17:21:11+08:00</updated>
   <author>
     <name>Trecart</name>
     <uri>https://blog.heguip.com/</uri>
@@ -114,7 +114,10 @@ openssl req -new -key  /root/crt/uhttpd_null.key -...
     cd /etc/config
 nano test.conf
     
+
+    
   
+
 
 
 
