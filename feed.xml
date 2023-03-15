@@ -4,7 +4,7 @@
   <id>https://blog.heguip.com/</id>
   <title>Trecart</title>
   <subtitle>My Blog~</subtitle>
-  <updated>2023-03-15T17:36:00+08:00</updated>
+  <updated>2023-03-15T17:42:56+08:00</updated>
   <author>
     <name>Trecart</name>
     <uri>https://blog.heguip.com/</uri>
@@ -48,7 +48,9 @@
 
 
 
-      １.　平常管理Openwrt时，浏览器总是提示不安全，一个大大的红叉，如下图，实在是忍受不了，而且不能保存密码，让兄弟焦虑不安。
+      
+  平常管理Openwrt时，浏览器总是提示不安全，一个大大的红叉，如下图，实在是忍受不了，而且不能保存密码，让兄弟焦虑不安。
+
 
 
 
@@ -62,7 +64,7 @@ openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -subj "/C=CN/ST=Beijing/L=B
 openssl genrsa -out /root/crt/uhttpd_null.key 2048
 
 #注意下条命令的/CN=op.lan与下面你的内网域名对应
-openssl req -new -key  /root/crt/uhttpd_null.key -...
+openssl req -new -key  /root/crt/uhttpd_null.key ...
     </summary>
   
 
